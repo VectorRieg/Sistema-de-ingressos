@@ -1,0 +1,131 @@
+[
+{
+  "id": 1,
+  "titulo": "Inception",
+  "diretor": "Christopher Nolan",
+  "descricao": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+  "genero": "Action, Adventure, Sci-Fi",
+  "data": "2025-04-10",
+  "lugar": "Metroplex",
+  "assentoTotal": 200,
+  "assentoDisponivel": 200,
+  "preco": 30
+}
+
+{
+  "id": 2,
+  "titulo": "The Matrix",
+  "diretor": "Lana Wachowski",
+  "descricao": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+  "genero": "Action, Sci-Fi",
+  "data": "2025-04-10",
+  "lugar": "Cineplexx",
+  "assentoTotal": 180,
+  "assentoDisponivel": 180,
+  "preco": 30
+}
+
+{
+  "id": 3,
+  "titulo": "Fight Club",
+  "diretor": "David Fincher",
+  "descricao": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+  "genero": "Drama",
+  "data": "2025-04-10",
+  "lugar": "Cineworld",
+  "assentoTotal": 150,
+  "assentoDisponivel": 150,
+  "preco": 30
+}
+
+{
+  "id": 4,
+  "titulo": "The Avengers",
+  "diretor": "Joss Whedon",
+  "descricao": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+  "genero": "Action, Adventure, Sci-Fi",
+  "data": "2025-04-10",
+  "lugar": "Metroplex",
+  "assentoTotal": 220,
+  "assentoDisponivel": 220,
+  "preco": 30
+}
+
+{
+  "id": 5,
+  "titulo": "The Shawshank Redemption",
+  "diretor": "Frank Darabont",
+  "descricao": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+  "genero": "Drama",
+  "data": "2025-04-10",
+  "lugar": "Cineplexx",
+  "assentoTotal": 190,
+  "assentoDisponivel": 190,
+  "preco": 30
+}
+
+{
+  "id": 6,
+  "titulo": "Interstellar",
+  "diretor": "Christopher Nolan",
+  "descricao": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+  "genero": "Adventure, Drama, Sci-Fi",
+  "data": "2025-04-10",
+  "lugar": "Cineworld",
+  "assentoTotal": 210,
+  "assentoDisponivel": 210,
+  "preco": 30
+}
+
+{
+  "id": 7,
+  "titulo": "The Dark Knight",
+  "diretor": "Christopher Nolan",
+  "descricao": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham City, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+  "genero": "Action, Crime, Drama",
+  "data": "2025-04-10",
+  "lugar": "Metroplex",
+  "assentoTotal": 200,
+  "assentoDisponivel": 200,
+  "preco": 30
+}
+
+{
+  "id": 8,
+  "titulo": "Forrest Gump",
+  "diretor": "Robert Zemeckis",
+  "descricao": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
+  "genero": "Drama, Romance",
+  "data": "2025-04-10",
+  "lugar": "Cineplexx",
+  "assentoTotal": 180,
+  "assentoDisponivel": 180,
+  "preco": 30
+}
+
+{
+  "id": 9,
+  "titulo": "The Godfather",
+  "diretor": "Francis Ford Coppola",
+  "descricao": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+  "genero": "Crime, Drama",
+  "data": "2025-04-10",
+  "lugar": "Cineworld",
+  "assentoTotal": 170,
+  "assentoDisponivel": 170,
+  "preco": 30
+}
+
+{
+  "id": 10,
+  "titulo": "The Grand Budapest Hotel",
+  "diretor": "Wes Anderson",
+  "descricao": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+  "genero": "Adventure, Comedy, Drama",
+  "data": "2025-04-10",
+  "lugar": "Cineplexx",
+  "assentoTotal": 180,
+  "assentoDisponivel": 180,
+  "preco": 30
+}
+]
