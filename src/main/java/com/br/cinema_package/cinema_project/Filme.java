@@ -2,6 +2,7 @@ package com.br.cinema_package.cinema_project;
 
 public class Filme 
 {
+	//Atributos
     private int id;
     private String titulo;
     private String descricao;
@@ -11,7 +12,7 @@ public class Filme
     private int assentoTotal;
     private int assentoDisponivel;
     private int preco;
-
+    //Construtor com todos os atributos pra criar o objeto Filme com todos os valores 
     public Filme(int id, String titulo, String descricao, String diretor, String genero, String duracao, int assentoTotal, int assentoDisponivel, int preco) 
     {
         this.id = id;
@@ -24,7 +25,7 @@ public class Filme
         this.assentoDisponivel = assentoDisponivel;
         this.preco = preco;
     }
-
+    //Getters e Setters
     public int getId() { return id; }
     public String getTitulo() { return titulo; }
     public String getDescricao() { return descricao; }
@@ -44,13 +45,13 @@ public class Filme
     public void setAssentoTotal(int assentoTotal) { this.assentoTotal = assentoTotal; }
     public void setAssentoDisponivel(int assentoDisponivel) { this.assentoDisponivel = assentoDisponivel; }
     public void setPreco(int preco) { this.preco = preco; }
-
+    //Converte os dados do objeto pra uma String em CSV
     public String toFileString() 
     {
         return id + "," + titulo + "," + descricao + "," + diretor + "," + genero + "," + duracao + "," + assentoTotal + "," + assentoDisponivel + "," + preco;
     }
 
-    public static Filme fromFileString(String line) 
+    public static Filme fromFileString(String line) //Divide a String por virgula
     {
         String[] parts = line.split(",");
         return new Filme(
@@ -64,8 +65,8 @@ public class Filme
             Integer.parseInt(parts[7]),
             Integer.parseInt(parts[8])
         );
-    }
-
+    } 	
+    //Sobrescreve o toString pra mostrar os dados do filme no terminal
     @Override
     public String toString() 
     {

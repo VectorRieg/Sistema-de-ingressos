@@ -1,50 +1,41 @@
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# Virtual machine crash logs
-hs_err_pid*
-
-# Eclipse
-.project
+# ========================
+# Ignorar arquivos do Eclipse
+# ========================
 .classpath
+.project
 .settings/
-bin/
-target/
 
-# IntelliJ IDEA
-*.iml
-.idea/
-out/
-
-# NetBeans
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-# VS Code
+# ========================
+# Ignorar arquivos do VS Code
+# ========================
 .vscode/
 
-# Mac OS
+# ========================
+# Ignorar pastas de build
+# ========================
+bin/
+target/
+out/
+
+# ========================
+# Ignorar arquivos de sistema
+# ========================
 .DS_Store
-
-# Windows
 Thumbs.db
-desktop.ini
+ehthumbs.db
+Desktop.ini
 
+# ========================
+# Ignorar logs e temporários
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ========================
+# Ignorar dependências baixadas pelo Maven ou Gradle (se for o caso)
+# ========================
+.mvn/
+.gradle/

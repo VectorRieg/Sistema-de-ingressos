@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 
 public class ReservaHistorico 
 {
+	//Atributos
     private String titulo;
     private int assento;
     private LocalDateTime data;
@@ -16,6 +17,7 @@ public class ReservaHistorico
     }
 
     @Override
+    //Define como vai ser impresso
     public String toString() 
     {
         return "Filme: " + titulo + " | Assentos: " + assento + " | Data: " + data;

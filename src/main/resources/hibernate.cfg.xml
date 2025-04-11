@@ -8,10 +8,10 @@
 <property name="hibernate.hbm2ddl.auto">update</property>
 <property name="hibernate.show_sql">true</property>
 <property name="hibernate.format_sql">true</property>
-<mapping class="br.com.consultorio.entities.horarioEntity"/>
-<mapping class="br.com.consultorio.entities.historico_reservasEntity"/>
-<mapping class="br.com.consultorio.entities.SalasEntity"/>
-<mapping class="br.com.consultorio.entities.ReservasEntity"/>
-<mapping class="br.com.consultorio.entities.FilmesEntity"/>
+<mapping class="br.com.consultorio.entities.horariosEntity"/>
+<mapping class="br.com.consultorio.entities.historicoReservasEntity"/>
+<mapping class="br.com.consultorio.entities.salaEntity"/>
+<mapping class="br.com.consultorio.entities.reservasEntity"/>
+<mapping class="br.com.consultorio.entities.filmesEntity"/>
 </session-factory>
 </hibernate-configuration>
