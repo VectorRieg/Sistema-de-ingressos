@@ -17,7 +17,6 @@ Este é um sistema backend para reserva de ingressos de filmes, desenvolvido em 
  
 - Spring Data JPA
 - PostgreSQL
-- Docker
 - Postman
 
 ## 🔌 Endpoints da API
@@ -43,4 +42,4 @@ Este é um sistema backend para reserva de ingressos de filmes, desenvolvido em 
 
 ---
 
-🧠 Projeto desenvolvido com fins acadêmicos, demonstrando uso de Java + Spring Boot + PostgreSQL.
+🧠 Projeto desenvolvido com fins acadêmicos, demonstrando uso de Java + PostgreSQL.
